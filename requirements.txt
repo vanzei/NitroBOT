@@ -13,3 +13,5 @@ async-timeout
 aiodns
 aiohttp
 async_timeout
+core_main_app
+backend
