@@ -19,7 +19,7 @@ def create_sources_string(source_urls: Set[str]) -> str:
     return sources_string
 
 
-st.header("LangChain🦜🔗 Udemy Course- Helper Bot")
+st.header("LangChain🦜🔗 Datasheet Bot")
 if (
     "chat_answers_history" not in st.session_state
     and "user_prompt_history" not in st.session_state
@@ -45,7 +45,8 @@ if prompt:
             [doc.metadata["source"] for doc in generated_response["source_documents"]]
         )
         formatted_response = (
-            f"{generated_response['answer']} \n\n {create_sources_string(sources)}"
+            #f"{generated_response['answer']} \n\n {create_sources_string(sources)}" -> If want to expose pdf source
+            f"{generated_response['answer']}"
         )
 
         st.session_state.chat_history.append((prompt, generated_response["answer"]))
