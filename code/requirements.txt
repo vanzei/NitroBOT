@@ -11,3 +11,4 @@ openai[embeddings]
 pipreqs
 matplotlib
 async-timeout
+aiodns
