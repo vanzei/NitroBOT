@@ -10,4 +10,4 @@ jupyter
 openai[embeddings]
 pipreqs
 matplotlib
-async_timeout
+async-timeout
