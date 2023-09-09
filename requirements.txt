@@ -8,7 +8,7 @@ tiktoken
 jupyter
 openai[embeddings]
 pipreqs
-matplotlib
+matplotlib==3.7.0
 async-timeout
 aiodns
 aiohttp
