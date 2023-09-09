@@ -1,0 +1,15 @@
+langchain==0.0.285
+openai==0.28.0
+pinecone_client==2.2.2
+python-dotenv==1.0.0
+streamlit==1.26.0
+streamlit_chat==0.1.1
+tiktoken
+jupyter
+openai[embeddings]
+pipreqs
+matplotlib
+async-timeout
+aiodns
+aiohttp
+async_timeout
