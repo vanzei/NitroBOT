@@ -5,7 +5,7 @@
 This project utilizes the LangChain library with the RAG (Retrieval-Augmented Generation) technique to provide access to <b> public PDF files of Viavi Solutions website </b> and create a chatbot capable of providing information about their products. The bot takes user prompts and generates responses by querying the LangChain model, including relevant information from Viavi Solutions' PDF documents.
 Requirements
 
-#![Demo]()
+#![Demo](https://github.com/vanzei/NitroBOT/blob/main/code/static/gif_chat.gif)
 
 
 ### Before running the project, make sure you have the following dependencies installed:
