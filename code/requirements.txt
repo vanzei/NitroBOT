@@ -12,3 +12,5 @@ pipreqs
 matplotlib
 async-timeout
 aiodns
+aiohttp
+async_timeout
